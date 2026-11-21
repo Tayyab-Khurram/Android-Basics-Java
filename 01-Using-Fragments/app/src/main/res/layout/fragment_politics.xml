@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF4081"
+    tools:context=".PoliticsFragment" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60sp"
+        android:background="#FF4081"
+        android:text="This\nis\nthe\nPolitics\nFragment"
+        android:textAlignment="center"
+        android:textColor="#FDFDFD"
+        android:textSize="57sp"
+        android:textStyle="bold" />
+</FrameLayout>
